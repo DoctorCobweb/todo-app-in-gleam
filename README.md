@@ -1,3 +1,8 @@
+# followed the tutorial from
+
+kudos to:
+https://gleaming.dev/articles/building-your-first-gleam-web-app/
+
 # todo_app
 
 [![Package Version](https://img.shields.io/hexpm/v/todo_app)](https://hex.pm/packages/todo_app)
@@ -6,6 +11,7 @@
 ```sh
 gleam add todo_app@1
 ```
+
 ```gleam
 import todo_app
 

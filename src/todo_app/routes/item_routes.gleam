@@ -5,9 +5,9 @@ import gleam/dynamic
 import gleam/list
 import gleam/option.{Some, None}
 import gleam/result
-import web.{type Context, Context}
-import models/item.{type Item, create_item}
 import gleam/io
+import todo_app/web.{type Context, Context}
+import todo_app/models/item.{type Item, create_item}
 
 type ItemsJson {
     ItemsJson(id: String, title: String, completed: Bool)

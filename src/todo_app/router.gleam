@@ -1,11 +1,11 @@
 import lustre/element
-import web.{type Context}
 import wisp.{type Request, type Response}
 import gleam/io
-import pages
-import pages/layout.{layout}
-import routes/item_routes.{items_middleware}
 import gleam/http
+import todo_app/web.{type Context}
+import todo_app/pages
+import todo_app/pages/layout.{layout}
+import todo_app/routes/item_routes.{items_middleware}
 
 pub fn handle_request(req: Request, ctx: Context) -> Response {
     io.print("Handling request\n")

@@ -3,7 +3,7 @@ import lustre/attribute.{autofocus, class, name, placeholder}
 import lustre/element.{type Element, text}
 import lustre/element/html.{button, div, form, h1, input, span, svg}
 import lustre/element/svg
-import models/item.{type Item, Completed, Incompleted}
+import todo_app/models/item.{type Item, Completed, Incompleted}
 
 pub fn root(items: List(Item)) -> Element(t) {
   div([class("app")], [

@@ -1,8 +1,8 @@
 import wisp.{type Request, type Response}
 import gleam/bool
 import gleam/string_tree
-import models/item.{type Item}
 import gleam/io
+import todo_app/models/item.{type Item}
 
 
 pub type Context {
